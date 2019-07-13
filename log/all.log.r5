@@ -1,0 +1,316 @@
+2019-04-25 10:36:43,828 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 5.00ms
+2019-04-25 10:36:43,894 - tornado.access - WARNING - 404 GET /favicon.ico (127.0.0.1) 6.00ms
+2019-04-25 10:44:03,059 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 7.00ms
+2019-04-25 10:47:11,095 - tornado.access - INFO - 304 GET /addBatch (127.0.0.1) 12.00ms
+2019-04-25 10:47:45,414 - tornado.access - INFO - 304 GET /addBatch (127.0.0.1) 10.00ms
+2019-04-25 10:48:32,204 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 11.00ms
+2019-04-25 10:49:38,309 - tornado.access - INFO - 200 POST /addBatch (127.0.0.1) 55018.00ms
+2019-04-25 10:51:59,269 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 7.00ms
+2019-04-25 10:52:27,243 - tornado.access - INFO - 200 POST /addBatch (127.0.0.1) 9188.00ms
+2019-04-25 10:55:18,638 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 5.00ms
+2019-04-25 10:55:33,753 - tornado.access - INFO - 200 POST /addBatch (127.0.0.1) 29.00ms
+2019-04-25 10:56:37,246 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 4.00ms
+2019-04-25 10:56:50,155 - tornado.access - INFO - 200 POST /addBatch (127.0.0.1) 26.00ms
+2019-04-25 10:57:44,734 - tornado.access - INFO - 200 GET /addBatch (127.0.0.1) 6.00ms
+2019-04-25 10:58:02,003 - tornado.access - INFO - 200 POST /addBatch (127.0.0.1) 31.00ms
+2019-04-25 11:37:59,934 - tornado.access - WARNING - 404 GET /selectBatchBs (127.0.0.1) 1.00ms
+2019-04-25 11:38:50,362 - tornado.access - WARNING - 404 GET /selectBatchBs (127.0.0.1) 1.00ms
+2019-04-25 11:39:25,316 - tornado.access - INFO - 200 GET /selectBatchBs (127.0.0.1) 5.00ms
+2019-04-25 11:39:30,062 - tornado.access - INFO - 200 POST /selectBatchBs (127.0.0.1) 1.00ms
+2019-04-25 17:11:32,727 - tornado.access - INFO - 200 GET /Login (127.0.0.1) 3.00ms
+2019-04-25 17:11:36,923 - tornado.access - INFO - 200 POST /Login (127.0.0.1) 0.00ms
+2019-04-25 17:16:39,868 - tornado.access - INFO - 200 POST /Login (127.0.0.1) 0.00ms
+2019-04-25 17:17:24,871 - tornado.access - INFO - 200 POST /Login (127.0.0.1) 1.00ms
+2019-05-01 16:09:37,986 - tornado.access - INFO - 200 POST /Login (117.158.83.66) 1.00ms
+2019-05-01 16:09:39,657 - tornado.access - INFO - 200 POST /selectCompany (117.158.83.66) 1.00ms
+2019-05-01 16:09:45,769 - tornado.access - INFO - 200 POST /SelectStaffByCompany (117.158.83.66) 1.00ms
+2019-05-01 16:10:00,091 - tornado.access - INFO - 200 POST /selectBatchBs (117.158.83.66) 1.00ms
+2019-05-01 16:10:01,661 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.158.83.66) 1.00ms
+2019-05-01 16:11:39,105 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.158.83.66) 2.00ms
+2019-05-01 16:11:43,709 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 1.00ms
+2019-05-01 16:12:11,233 - tornado.application - ERROR - Uncaught exception POST /addManifest (117.158.83.66)
+HTTPServerRequest(protocol='http', host='39.106.5.116:8010', method='POST', uri='/addManifest', version='HTTP/1.1', remote_ip='117.158.83.66')
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\Administrator\Desktop\Traceability\handlers\managehandlers\AddManifestHandler.py", line 22, in post
+    staff_id = Dal_Staff().selectStaffByName(post_data['cg_name'],post_data['cid'])
+TypeError: selectStaffByName() takes exactly 2 arguments (3 given)
+2019-05-01 16:12:11,236 - tornado.access - ERROR - 500 POST /addManifest (117.158.83.66) 3.00ms
+2019-05-01 16:12:11,344 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 2.00ms
+2019-05-01 16:12:15,891 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.158.83.66) 1.00ms
+2019-05-01 16:13:23,368 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 3.00ms
+2019-05-01 16:16:54,013 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 4.00ms
+2019-05-01 16:26:37,459 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 1.00ms
+2019-05-01 16:27:45,464 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 3.00ms
+2019-05-01 16:31:49,134 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 3.00ms
+2019-05-01 16:32:28,325 - tornado.access - INFO - 200 POST /addManifest (117.158.83.66) 33975.00ms
+2019-05-01 16:32:28,334 - tornado.access - INFO - 200 POST /getAllwcs (117.158.83.66) 1.00ms
+2019-05-01 16:32:37,917 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (117.158.83.66) 2.00ms
+2019-05-01 23:36:38,122 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-02 00:38:06,355 - tornado.access - WARNING - 404 GET / (60.191.38.78) 1.00ms
+2019-05-02 03:29:57,022 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 1.00ms
+2019-05-02 03:55:35,607 - tornado.access - WARNING - 404 GET /struts2-rest-showcase/orders.xhtml (39.106.180.40) 0.00ms
+2019-05-02 03:55:35,608 - tornado.access - WARNING - 404 GET /index.action (39.106.180.40) 0.00ms
+2019-05-02 03:55:35,612 - tornado.access - WARNING - 404 GET /index.do (39.106.180.40) 0.00ms
+2019-05-02 06:56:14,841 - tornado.access - WARNING - 404 GET /Lists/admin.php (185.101.33.133) 1.00ms
+2019-05-02 07:23:28,444 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 1.00ms
+2019-05-02 09:46:15,588 - tornado.access - WARNING - 404 GET http://wujieliulan.com/ (106.45.0.223) 1.00ms
+2019-05-02 09:46:15,595 - tornado.access - WARNING - 404 GET http://www.123cha.com/ (106.45.0.223) 0.00ms
+2019-05-02 09:46:15,596 - tornado.access - WARNING - 404 GET http://www.epochtimes.com/ (106.45.0.223) 0.00ms
+2019-05-02 09:46:15,598 - tornado.access - WARNING - 404 GET http://www.minghui.org/ (106.45.0.223) 1.00ms
+2019-05-02 09:46:15,599 - tornado.access - WARNING - 404 GET http://www.bing.com/ (106.45.0.223) 1.00ms
+2019-05-02 09:46:15,601 - tornado.access - WARNING - 404 GET http://www.boxun.com/ (106.45.0.223) 1.00ms
+2019-05-02 09:46:15,604 - tornado.access - WARNING - 404 GET http://www.baidu.com/ (106.45.0.223) 1.00ms
+2019-05-02 09:46:15,661 - tornado.access - WARNING - 405 CONNECT www.voanews.com:443 (106.45.0.223) 2.00ms
+2019-05-02 09:46:21,025 - tornado.access - WARNING - 404 GET http://www.rfa.org/ (106.45.0.223) 1.00ms
+2019-05-02 11:16:56,515 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-02 15:10:19,006 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-02 16:39:17,849 - tornado.access - WARNING - 404 GET / (47.97.23.199) 1.00ms
+2019-05-02 19:03:54,569 - tornado.access - WARNING - 404 GET http://www.baidu.com/cache/global/img/gs.gif (93.174.93.136) 0.00ms
+2019-05-03 14:13:55,558 - tornado.access - INFO - 200 GET /selectByCode (127.0.0.1) 9.00ms
+2019-05-03 14:13:55,829 - tornado.access - WARNING - 404 GET /favicon.ico (127.0.0.1) 10.00ms
+2019-05-04 16:14:03,596 - tornado.access - INFO - 304 GET /selectByCode (127.0.0.1) 8.00ms
+2019-05-04 16:14:03,809 - tornado.access - WARNING - 404 GET /favicon.ico (127.0.0.1) 10.00ms
+2019-05-04 17:05:22,421 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.114) 1.00ms
+2019-05-04 17:05:25,990 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.114) 1.00ms
+2019-05-04 17:05:28,997 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 26.00ms
+2019-05-04 17:08:05,220 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 79.00ms
+2019-05-04 17:09:13,648 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.114) 1.00ms
+2019-05-04 17:09:18,398 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 53.00ms
+2019-05-04 17:09:30,051 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 22.00ms
+2019-05-04 17:09:49,273 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.114) 2.00ms
+2019-05-04 17:09:52,276 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 26.00ms
+2019-05-04 17:14:33,897 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 14190.00ms
+2019-05-04 17:14:45,323 - tornado.access - INFO - 200 POST /updateManifest (192.168.1.114) 45.00ms
+2019-05-04 17:14:47,983 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.114) 0.00ms
+2019-05-04 17:20:00,313 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:20:53,266 - tornado.access - INFO - 200 POST /selectCompany (192.168.1.105) 0.00ms
+2019-05-04 17:21:10,553 - tornado.access - INFO - 200 POST /Login (192.168.1.105) 1.00ms
+2019-05-04 17:21:12,144 - tornado.access - INFO - 200 POST /selectCompany (192.168.1.105) 5.00ms
+2019-05-04 17:21:34,819 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:21:35,799 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:21:36,825 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:21:38,055 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:21:42,197 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 17:21:43,377 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:21:47,177 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 17:25:47,539 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:25:48,117 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:25:50,772 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:26:05,546 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:26:08,128 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 1.00ms
+2019-05-04 17:26:53,049 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:26:53,683 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:27:15,697 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:31:04,092 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 1.00ms
+2019-05-04 17:31:16,895 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:31:32,822 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 1.00ms
+2019-05-04 17:31:37,733 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:31:38,757 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 1.00ms
+2019-05-04 17:31:39,617 - tornado.access - INFO - 200 POST /SelectStaffByCompany (192.168.1.105) 0.00ms
+2019-05-04 17:31:41,400 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:31:41,973 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 17:31:42,704 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:31:42,956 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 0.00ms
+2019-05-04 17:31:43,417 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:31:44,332 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:31:44,888 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:31:46,095 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:31:47,999 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 0.00ms
+2019-05-04 17:31:48,763 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 1.00ms
+2019-05-04 17:31:56,184 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 0.00ms
+2019-05-04 17:31:58,269 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 17:31:59,091 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:32:00,736 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:01,686 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:01,894 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 1.00ms
+2019-05-04 17:32:02,055 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:02,227 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:02,414 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 1.00ms
+2019-05-04 17:32:02,627 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:02,862 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 1.00ms
+2019-05-04 17:32:03,059 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:03,331 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:03,565 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 1.00ms
+2019-05-04 17:32:12,338 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 0.00ms
+2019-05-04 17:32:13,790 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 17:32:14,729 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:32:15,881 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:32:22,417 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 1.00ms
+2019-05-04 17:32:23,950 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 0.00ms
+2019-05-04 17:32:24,565 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 0.00ms
+2019-05-04 17:32:25,812 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 17:32:32,785 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:32:33,785 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 1.00ms
+2019-05-04 17:33:06,417 - tornado.access - INFO - 200 POST /Login (192.168.1.105) 1.00ms
+2019-05-04 17:33:07,915 - tornado.access - INFO - 200 POST /selectCompany (192.168.1.105) 0.00ms
+2019-05-04 17:33:10,276 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.105) 0.00ms
+2019-05-04 17:33:12,897 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 0.00ms
+2019-05-04 17:33:13,562 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:33:15,730 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:33:17,084 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:33:44,684 - tornado.access - INFO - 200 POST /Login (192.168.1.114) 0.00ms
+2019-05-04 17:33:46,651 - tornado.access - INFO - 200 POST /selectCompany (192.168.1.114) 2.00ms
+2019-05-04 17:33:49,193 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 1.00ms
+2019-05-04 17:34:37,150 - tornado.access - INFO - 200 POST /addBatch (192.168.1.114) 48.00ms
+2019-05-04 17:34:41,578 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 0.00ms
+2019-05-04 17:34:44,780 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 0.00ms
+2019-05-04 17:34:45,579 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 0.00ms
+2019-05-04 17:36:32,141 - tornado.access - INFO - 200 POST /addBatch (192.168.1.114) 45.00ms
+2019-05-04 17:36:37,048 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 1.00ms
+2019-05-04 17:36:51,480 - tornado.application - ERROR - Uncaught exception POST /addLogistics (192.168.1.114)
+HTTPServerRequest(protocol='http', host='192.168.1.114:8010', method='POST', uri='/addLogistics', version='HTTP/1.1', remote_ip='192.168.1.114')
+Traceback (most recent call last):
+  File "F:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\chc\Desktop\Traceability\handlers\managehandlers\AddLogisticsHandler.py", line 66, in post
+    self.make_qrcode(text,batch_id)
+  File "C:\Users\chc\Desktop\Traceability\handlers\managehandlers\AddLogisticsHandler.py", line 94, in make_qrcode
+    img = qr.make_image()
+  File "F:\Python27\lib\site-packages\qrcode\main.py", line 289, in make_image
+    from qrcode.image.pil import PilImage
+  File "F:\Python27\lib\site-packages\qrcode\image\pil.py", line 8, in <module>
+    import Image
+ImportError: No module named Image
+2019-05-04 17:36:51,486 - tornado.access - ERROR - 500 POST /addLogistics (192.168.1.114) 99.00ms
+2019-05-04 17:36:59,460 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:37:00,257 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:37:01,122 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:37:09,910 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 1.00ms
+2019-05-04 17:38:09,397 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:38:10,957 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:38:30,809 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:38:34,709 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:39:03,295 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 17:39:03,937 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:39:04,417 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 17:39:06,671 - tornado.application - ERROR - Uncaught exception POST /addLogistics (192.168.1.114)
+HTTPServerRequest(protocol='http', host='192.168.1.114:8010', method='POST', uri='/addLogistics', version='HTTP/1.1', remote_ip='192.168.1.114')
+Traceback (most recent call last):
+  File "F:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\chc\Desktop\Traceability\handlers\managehandlers\AddLogisticsHandler.py", line 37, in post
+    driver = Dal_Staff().selectStaffByName(post_data['name'])
+  File "C:\Users\chc\Desktop\Traceability\dal\dal_staff.py", line 112, in selectStaffByName
+    if v['name'] == name and str(v['type']) == "司机":
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+2019-05-04 17:39:06,674 - tornado.access - ERROR - 500 POST /addLogistics (192.168.1.114) 4.00ms
+2019-05-04 17:40:17,081 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 1.00ms
+2019-05-04 17:40:23,335 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 1.00ms
+2019-05-04 17:42:34,180 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 2.00ms
+2019-05-04 17:45:55,572 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 2.00ms
+2019-05-04 17:46:25,907 - tornado.application - ERROR - Uncaught exception POST /addLogistics (192.168.1.114)
+HTTPServerRequest(protocol='http', host='192.168.1.114:8010', method='POST', uri='/addLogistics', version='HTTP/1.1', remote_ip='192.168.1.114')
+Traceback (most recent call last):
+  File "F:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\chc\Desktop\Traceability\handlers\managehandlers\AddLogisticsHandler.py", line 37, in post
+    driver = Dal_Staff().selectStaffByName(post_data['name'])
+  File "C:\Users\chc\Desktop\Traceability\dal\dal_staff.py", line 112, in selectStaffByName
+    vt = str(v['type'])
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-2: ordinal not in range(128)
+2019-05-04 17:46:25,913 - tornado.access - ERROR - 500 POST /addLogistics (192.168.1.114) 20392.00ms
+2019-05-04 17:51:19,127 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 2.00ms
+2019-05-04 17:51:40,595 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 2.00ms
+2019-05-04 17:51:46,020 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 2.00ms
+2019-05-04 18:06:28,519 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:06:29,655 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:06:38,371 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 0.00ms
+2019-05-04 18:07:40,792 - tornado.access - WARNING - 404 GET /Traceability/static/Qr_code/00015.png (127.0.0.1) 1.00ms
+2019-05-04 18:08:30,819 - tornado.access - WARNING - 404 GET /static/Qr_code/00015.png (127.0.0.1) 4.00ms
+2019-05-04 18:12:11,289 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:12:11,769 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 2.00ms
+2019-05-04 18:12:11,990 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:12:12,187 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:12:28,561 - tornado.access - INFO - 200 GET /static/QrCode_img/00015.png (127.0.0.1) 532.00ms
+2019-05-04 18:12:48,930 - tornado.access - INFO - 200 GET /static/QrCode_img/00015.png (192.168.1.114) 3.00ms
+2019-05-04 18:12:49,029 - tornado.access - WARNING - 404 GET /favicon.ico (192.168.1.114) 1.00ms
+2019-05-04 18:14:09,581 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:14:10,826 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:14:11,342 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:14:11,736 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:14:11,960 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:14:16,631 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:14:16,799 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:14:32,201 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:14:32,802 - tornado.access - INFO - 304 GET /static/QrCode_img/00015.png (192.168.1.114) 524.00ms
+2019-05-04 18:14:40,095 - tornado.access - INFO - 200 GET /static/Barcode_img/00015.png (192.168.1.114) 5.00ms
+2019-05-04 18:15:46,953 - tornado.general - WARNING - 403 GET /static/QrCode_img (192.168.1.105): QrCode_img is not a file
+2019-05-04 18:15:46,954 - tornado.access - WARNING - 403 GET /static/QrCode_img (192.168.1.105) 2.00ms
+2019-05-04 18:15:47,032 - tornado.access - WARNING - 404 GET /favicon.ico (192.168.1.105) 1.00ms
+2019-05-04 18:16:01,779 - tornado.access - INFO - 200 GET /static/QrCode_img/00015.png (192.168.1.105) 2.00ms
+2019-05-04 18:19:17,661 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:19:18,607 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:19:19,148 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:19:47,687 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:19:47,693 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 1.00ms
+2019-05-04 18:19:47,697 - tornado.access - INFO - 304 GET /static/QrCode_img/00015.png (192.168.1.105) 2.00ms
+2019-05-04 18:22:14,835 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:22:17,687 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 0.00ms
+2019-05-04 18:22:17,690 - tornado.access - INFO - 304 GET /static/QrCode_img/00015.png (192.168.1.105) 2.00ms
+2019-05-04 18:22:19,302 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:22:19,311 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 1.00ms
+2019-05-04 18:22:44,709 - tornado.access - INFO - 200 GET /static/BarCode_img/00015.png (192.168.1.114) 5.00ms
+2019-05-04 18:23:24,792 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:23:27,161 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 1.00ms
+2019-05-04 18:23:48,256 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 0.00ms
+2019-05-04 18:23:49,655 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 0.00ms
+2019-05-04 18:23:49,660 - tornado.access - INFO - 200 GET /static/BarCode_img/00015.png (192.168.1.105) 3.00ms
+2019-05-04 18:24:17,058 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 18:24:17,582 - tornado.access - INFO - 200 POST /selectAllManifestBcSend (192.168.1.105) 1.00ms
+2019-05-04 18:24:18,269 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 18:24:22,259 - tornado.access - INFO - 200 POST /selectAllManifestBcGet (192.168.1.105) 1.00ms
+2019-05-04 18:24:25,367 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 1.00ms
+2019-05-04 18:24:27,072 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 1.00ms
+2019-05-04 18:24:27,865 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 1.00ms
+2019-05-04 18:24:28,178 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 0.00ms
+2019-05-04 18:25:14,430 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 0.00ms
+2019-05-04 18:27:36,665 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.105) 0.00ms
+2019-05-04 18:33:18,032 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:33:18,045 - tornado.access - INFO - 304 GET /static/BarCode_img/00015.png (192.168.1.105) 2.00ms
+2019-05-04 18:33:18,048 - tornado.access - INFO - 304 GET /static/QrCode_img/00015.png (192.168.1.105) 2.00ms
+2019-05-04 18:33:18,049 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 0.00ms
+2019-05-04 18:33:18,663 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.105) 1.00ms
+2019-05-04 18:33:18,670 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.105) 1.00ms
+2019-05-04 18:36:39,855 - tornado.application - ERROR - Uncaught exception GET /updateLogistics (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8010', method='GET', uri='/updateLogistics', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "F:\Python27\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\chc\Desktop\Traceability\handlers\managehandlers\UpdateManifestHandler.py", line 36, in get
+    self.render("page/updateLogistic.html")
+  File "F:\Python27\lib\site-packages\tornado\web.py", line 766, in render
+    html = self.render_string(template_name, **kwargs)
+  File "F:\Python27\lib\site-packages\tornado\web.py", line 904, in render_string
+    t = loader.load(template_name)
+  File "F:\Python27\lib\site-packages\tornado\template.py", line 425, in load
+    self.templates[name] = self._create_template(name)
+  File "F:\Python27\lib\site-packages\tornado\template.py", line 452, in _create_template
+    with open(path, "rb") as f:
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\chc\\Desktop\\Traceability\\templates\\page/updateLogistic.html'
+2019-05-04 18:36:39,861 - tornado.access - ERROR - 500 GET /updateLogistics (127.0.0.1) 8.00ms
+2019-05-04 18:37:18,869 - tornado.access - INFO - 200 GET /updateLogistics (127.0.0.1) 5.00ms
+2019-05-04 18:40:24,546 - tornado.access - INFO - 200 GET /updateLogistics (127.0.0.1) 6.00ms
+2019-05-04 18:42:04,512 - tornado.access - INFO - 304 GET /updateLogistics (127.0.0.1) 5.00ms
+2019-05-04 18:43:05,822 - tornado.access - INFO - 200 POST /updateLogistics (127.0.0.1) 58857.00ms
+2019-05-04 18:45:44,598 - tornado.access - INFO - 200 GET /updateLogistics (127.0.0.1) 8.00ms
+2019-05-04 18:45:54,016 - tornado.access - INFO - 200 POST /updateLogistics (127.0.0.1) 7587.00ms
+2019-05-04 18:46:45,345 - tornado.access - INFO - 200 GET /updateLogistics (127.0.0.1) 4.00ms
+2019-05-04 18:47:29,267 - tornado.access - INFO - 304 GET /updateLogistics (127.0.0.1) 5.00ms
+2019-05-04 18:48:53,971 - tornado.access - INFO - 200 POST /updateLogistics (127.0.0.1) 82056.00ms
+2019-05-04 18:49:41,578 - tornado.access - INFO - 200 GET /updateLogistics (127.0.0.1) 4.00ms
+2019-05-04 18:50:43,786 - tornado.access - INFO - 304 GET /updateLogistics (127.0.0.1) 7.00ms
+2019-05-04 18:50:53,108 - tornado.access - INFO - 200 POST /updateLogistics (127.0.0.1) 6321.00ms
+2019-05-04 19:03:36,122 - tornado.access - INFO - 304 GET /selectByCode (127.0.0.1) 4.00ms
+2019-05-04 19:04:45,154 - tornado.access - INFO - 200 POST /selectByCode (127.0.0.1) 57839.00ms
+2019-05-04 19:21:47,605 - tornado.access - INFO - 200 POST /selectBatchBs (192.168.1.114) 1.00ms
+2019-05-04 19:21:48,142 - tornado.access - INFO - 304 GET /static/BarCode_img/00015.png (192.168.1.114) 519.00ms
+2019-05-04 19:21:48,148 - tornado.access - INFO - 304 GET /static/QrCode_img/00015.png (192.168.1.114) 4.00ms
+2019-05-04 19:21:48,153 - tornado.access - WARNING - 404 GET /static/QrCode_img/static/img/production/2.jpg (192.168.1.114) 3.00ms
+2019-05-04 19:22:05,336 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 1.00ms
+2019-05-04 19:23:15,019 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 2.00ms
+2019-05-04 19:24:40,694 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 12959.00ms
+2019-05-04 19:24:47,701 - tornado.access - INFO - 200 POST /selectAllLogistics (192.168.1.114) 1.00ms
+2019-05-04 19:28:16,552 - tornado.access - INFO - 200 POST /selectAllProd (192.168.1.114) 0.00ms
+2019-05-04 19:40:18,315 - tornado.access - INFO - 200 POST /selectByCode (192.168.1.246) 1.00ms
